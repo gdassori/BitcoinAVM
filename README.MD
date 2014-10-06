@@ -21,7 +21,7 @@ Instructions:
 - Run the app! (python manage.py runserver)
 - Login in into admin panel, configure app basics
 - Go to the index page (http://127.0.0.1:8000/ ?), since no wallet was created, you should be asked to create a new one. Note your seed and configure the wallet.
-- 
+-
 
 
 TO DO:
