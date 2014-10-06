@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+                {% if missing_config %}
+
+                    <div class="inner cover" id="missingConfigDiv">
+                        <h1 class="cover-heading">ATM configuration is missing !</h1>
+                        <p class="lead">Please login as admin and configure the machine !</p>
+                        <p class="lead">
+                            <a href="/admin" class="btn btn-lg btn-default">Admin login</a>
+                        </p>
+                    </div>
+
+                {% elif not wallet_exists %}
+
+                    <div class="inner cover" id="noWalletDiv">
+                        <h1 class="cover-heading">Welcome to BTC AVM !</h1>
+                        <p class="lead">No electrum wallet found. Please create it.</p>
+                        <p class="lead" id="walletActionDiv">
+                            <a href="/create_wallet" class="btn btn-lg btn-default" id="createWallet">Create wallet</a>
+                            <a href="#" class="btn btn-lg btn-default" id="restoreFromSeed">Restore from seed</a>
+                        </p>
+                                                    <form method="post" action="/restore_from_seed" id="seedForm">
+                                                        <input type="hidden" value="{{ csrf_token }}" id="csrfmiddlewaretoken" name="csrfmiddlewaretoken" />
+                        <div class="input-group" style="display: none" id="seedDiv">
+
+                            <span class="input-group-addon">Type your seed: </span>
+                            <input type="text" class="form-control" id="seedToRestore" name="seedToRestore">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default" id="restoreFromSeedBtn">Continue</button>
+                            </span>
+
+                        </div>
+                                                        </form>
+                         <br/>
+                        <div class="alert alert-danger" style="display: none" id="invalidSeedMessage">Please insert a valid wallet seed.</div>
+                    </div>
+
+                {% else %}
+
+                    <input type="hidden" value="{{ csrf_token }}" id="csrfmiddlewaretoken" name="csrfmiddlewaretoken" />
+
+                    <div class="inner cover" id="welcomeDiv">
+                        <h1 class="cover-heading">Welcome to BTC AVM !</h1>
+                        <p class="lead">Here you can buy any BTC amount you want ! Just get your cash ready and have your BTC sent to your wallet in a blink of an eye !</p>
+                        <p class="lead">
+                            <a href="#" class="btn btn-lg btn-default" id="startBtn">Buy BTC Now</a>
+                        </p>
+                    </div>
+
+                    <div class="inner cover" id="scanAddressDiv" style="display:none">
+                        <h1 class="cover-heading">Tell us where to send your BTC</h1>
+                       <p class="lead">
+                            Picture how to scan qr code here
+                        </p>
+                        <p class="lead">OR</p>
+                         <div class="input-group">
+                            <span class="input-group-addon">Type your address: </span>
+                            <input type="text" class="form-control" id="manualAddressTxt">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default" id="manualAddressBtn">Continue</button>
+                            </span>
+
+                        </div>
+                        <br/>
+                        <div class="alert alert-danger" style="display: none" id="invalidAddressMsg">Please insert a valid BTC address.</div>
+
+                    </div>
+
+                    <div class="inner cover" id="qrCodeDiv" style="display:none">
+                        <h1 class="cover-heading">Scan your address QR code as shown in the picture</h1>
+                        <div class="">
+                            PICTURE HERE
+                        </div>
+                        <br />
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default cancelBtn" id="cancelQrCodeScanBtn">Cancel</button>
+                        </div>
+                    </div>
+
+                    <div class="inner cover" id="paymentDiv" style="display:none">
+                        <h1 class="cover-heading">Insert your money as shown in the picture</h1>
+                        <div class="">
+                            PICTURE HERE
+                        </div>
+                        <br />
+                        <div class="panel panel-default">
+                            <div class="panel-body" style="color: black">
+                                Inserted amount: <span class="insertedCash">0.00</span> eur - <span class="btcAmount">0.00</span> BTC
+                            </div>
+                        </div>
+                        <div class="">
+                            Destination address: <span class="destinationAddress"></span>
+                        </div>
+                        <br />
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default cancelBtn" id="cancelPaymentBtn">Cancel</button>
+                            <button type="button" class="btn btn-default" id="confirmPaymentBtn">Confirm</button>
+                        </div>
+                    </div>
+
+                    <div class="inner cover" id="confirmationDiv" style="display:none">
+                        <h1 class="cover-heading">Bitcoin sent !</h1>
+                        <div class="">
+                            PICTURE HERE
+                        </div>
+                        <br />
+                        <p class="lead">
+                            Inserted amount: <span class="insertedCash">0.00</span> eur - <span class="btcAmount">0.00</span> BTC
+                        </p>
+                        <div class="">
+                            Destination address: <span class="destinationAddress"></span>
+                        </div>
+                        <br />
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default" id="startOverBtn">Start over</button>
+                        </div>
+                    </div>
+
+                {% endif %}
+
+{% endblock %}
+
+{% block scripts %}
+    		<script src="/static/js/index.js"></script>
+            <script type="text/javascript">
+                 $(document).ready(function () {
+                     btcatm.index.init();
+                 });
+            </script>
+{% endblock %}
