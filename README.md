@@ -34,7 +34,7 @@ We DON'T encourage donations, but we would really prefeer a fork instead (and we
 Probably final costs:
 
 - 300 €: cool case once prototyping
-- 200 €: the main hardware (x86 mainboard + atom + ram + etc.)
+- 200 €: the main hardware (x86 mainboard + atom + ram + etc., or maybe we can switch on Udoo, which looks cool)
 - 150 €: the 10" touch display
 - 200+50 €: the banknotes reader\emitter and its own PSU (they suck a large amounts of Amperes)
 - 200 €: the fingerprint terminal
