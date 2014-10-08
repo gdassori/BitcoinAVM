@@ -15,15 +15,17 @@ General purpose donations: https://greenaddress.it/pay/GALibhqvVEhbZR2NYf6R9DC23
 Project donations (trackable): 354apm3c8WvU1zBEFBAnv4HNa6Rnf5oUGn - check donation status: http://blockr.io/address/info/354apm3c8WvU1zBEFBAnv4HNa6Rnf5oUGn :
 
 
-Donations goal (on trackable address, pay attention, and amounts are CUMULATIVE, 900 eur on the seconds doesn't mean "900", but 400 of the first +500 of the second):
+Donations goal (on trackable address, pay attention, and amounts are CUMULATIVE, 2000 eur on the seconds doesn't mean "2000", but 500 of the first +1500 of the second):
 
-- We need ~400 eur for an Innovative Technology NV11 Notes Reader and Banknotes emitter (+beer). If this goal will be achieved, we'll buy it and write a full working, greenaddress based, Two-Ways API for the AVM. Once the funds will be raised, it'll take about 2 weeks to push here the working code.
+- We need ~500 eur for an Innovative Technology NV11 Notes Reader and Banknotes emitter (+beer). If this goal will be achieved, we'll buy it and write a full working, greenaddress based, Two-Ways API for the AVM. Once the funds will be raised, it'll take about 2 weeks to push here the working code.
 
-- We need ~900 eur for a BeagleBoneBlack (to run android) + mobile POS (and obv +beer) for a cashless AVM. This will be the second achievement, pay attention. Don't send funds for this until the first goal is achieved. Like the first, this second round of funds, if raised, will put us on r&d of the cashless version of the AVM but against this, since no tests are made and we have no idea of how those mobile POS works, we can't give you a deadline. (BTW they have APIs and I don't think it will be a very-very-very hard job).
+- We need ~2000 eur for a BeagleBoneBlack (to run android) + mobile POS (and obv +beer) for a cashless AVM. This will be the second achievement, pay attention. Don't send funds for this until the first goal is achieved. Like the first, this second round of funds, if raised, will put us on r&d of the cashless version of the AVM but against this, since no tests are made and we have no idea of how those mobile POS works, we can't give you a deadline. (BTW they have APIs and I don't think it will be a very-very-very hard job).
 
-- Third goal! We need ~1900 eur for a Technodrive Smartclock Bio (+beer) for fingerprint recognition. This will need a lot of beer, the main cost is not about the hardware, but the development of this will surely take more than 100 hours. Really, is not trivial.
+- Third goal! We need ~3500 eur for a Technodrive Smartclock Bio (+beer) for fingerprint recognition. This will need a lot of beer, the main cost is not about the hardware, but the development of this will surely take more than 100 hours. Really, is not trivial.
 
-- Fourth goal. Oh cmon. We need about ~3500 for a cool case (and when I say cool, I really mean cool). I already have an engineer working on this, and the project ready for prototyping (but since is not my own material, I can't upload them here). This cost is about the prototyping of the hardware, nor me or dlalex will take funds from this (no beer, so). Like the previous, this will not be done till the others 3 are completed. Do not donate for this if you see the previous rounds still in this readme. This is just a roadmap.
+- Fourth goal. Oh cmon. We need about ~5000 for a cool case (and when I say cool, I really mean cool). I already have an engineer working on this, and the project ready for prototyping (but since is not my own material, I can't upload them here). This cost is about the prototyping of the hardware, nor me or dlalex will take funds from this (no beer, so). Like the previous, this will not be done till the others 3 are completed. Do not donate for this if you see the previous rounds still in this readme. This is just a roadmap.
+
+We DON'T encourage donations, but we would really prefeer a fork instead (and we offer free support on what we wrote). Anyway if the amount will be raised, the work will be done as established. 
 
 Probably final costs:
 
