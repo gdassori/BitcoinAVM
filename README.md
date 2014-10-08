@@ -10,7 +10,7 @@ Codename: AVM - Awesome(?) Vending Machine, an open source bitcoin ATM based on 
 This project comes up in May 2014, after an Hackaton in march, when I've built a proof-of-concept btc ATM.
 Later dlalex83 joined me and we did this. 99% we'll don't finish it, fork and don't let it die, or donate and boost us (dont, read below :-) )
 
-*disclaimer* You've the right to blame us for every single line of this code, and probably you would right.
+*disclaimer* You've the right to blame us for every single line of this code, and probably you would be right.
 
 If forked feel free to contact me to explain or adjust some broken things. mn3monic @ freenode - gdassori @ bitcointalk
 
