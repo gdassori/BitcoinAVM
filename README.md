@@ -54,9 +54,9 @@ Advices if forked:
 
 - Our electrum implementation is buggy, but feel free to contact me for a GreenAddress wallet wrapper. Using spending limits and 2FA, and a remote script which set them during working time, could enchance the ATM security: also if it get stolen (out of the working time), no Bitcoins can be taken. Seems cool for an ATM.
 - We did a very bad practice copying the electrum code and not including the repo, but it's because we had some issues (and no time to fix) with seed recovery between version, and  so we just copied the working version (1.9.6 I guess).
-- Maybe The Rock Trading hasn't the better liquidity of the market, but their customer support rules, and since you rely with customers, you will need a 'txid' ASAP: TRT broadcast the transaction txs on demand, and give back the hash, Bitstamp don't.
+- Maybe The Rock Trading hasn't the better liquidity of the market, but their customer support rules, and since you rely with customers, you will need a 'txid' ASAP: TRT broadcast the txs on demand, and give back the hash, Bitstamp don't.
 (and TRT also have daily spending limits to limit damages if the ATM is stolen). Contact them and ask for a withdrawal API, who knows.
-- I now think we did the wrong choice with a SQL database (check the awesomeness of Django + CouchDB in this kind of application).
+- I now think we did the wrong choice with a SQL database (check the awesomeness of Django + CouchDB in this kind of application, maybe you'll need only to change the Django model, and get it working without any other modification).
 
 Hardware:
 
