@@ -11,9 +11,13 @@ This project comes up in May 2014, after an Hackaton in march, when I've built a
 Later dlalex83 joined me and we did this. 99% we'll don't finish it, fork and don't let it die, or donate and boost us (dont, read below :-) )
 
 *disclaimers:*
+
 *You've the right to blame us for every single line of this code, and probably you would be right.*
+
 *There's no evidence, just speculation, (yet) that a fingerprint reader could be KYC-regulatory-compliant.*
 
+Notes:
+======
 If forked feel free to contact me to explain or adjust some broken things. mn3monic @ freenode - gdassori @ bitcointalk
 
 General purpose donations: https://greenaddress.it/pay/GALibhqvVEhbZR2NYf6R9DC23L3sq/
