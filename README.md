@@ -15,9 +15,11 @@ Project donations (trackable): 354apm3c8WvU1zBEFBAnv4HNa6Rnf5oUGn
 
 Donations goal (on trackable address, pay attention)
 
-- We need ~300 eur for an Innovative Technology NV11 Notes Reader and Banknotes emitter. If this goal will be achieved, we'll buy it and write a full working, greenaddress based, Two-Ways API for the AVM. Once the funds will be raised, it'll take about 2 weeks to push here the working code.
+- We need ~400 eur for an Innovative Technology NV11 Notes Reader and Banknotes emitter (+beer). If this goal will be achieved, we'll buy it and write a full working, greenaddress based, Two-Ways API for the AVM. Once the funds will be raised, it'll take about 2 weeks to push here the working code.
 
-- We need about ~300 eur for a BeagleBoneBlack + mobile POS (for a cashless ATM). This will be the second achievement, pay attention. Don't send funds for this until the first goal is achieved. Like the first, this second round of funds, if raised, will put us on r&d of the cashless version of the AVM. Against this, since no tests are made and we have no idea of how those mobile POS works, we can't give you a deadline.
+- We need ~350 eur for a BeagleBoneBlack (to run android) + mobile POS (and obv +beer) for a cashless AVM. This will be the second achievement, pay attention. Don't send funds for this until the first goal is achieved. Like the first, this second round of funds, if raised, will put us on r&d of the cashless version of the AVM but against this, since no tests are made and we have no idea of how those mobile POS works, we can't give you a deadline. (BTW they have APIs and I don't think it will be a very-very-very hard job).
+
+
 
 
 Instructions:
