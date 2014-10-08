@@ -23,7 +23,7 @@ Donations goal (on trackable address, pay attention, and amounts are CUMULATIVE,
 
 - Third goal! We need ~3500 eur for a Technodrive Smartclock Bio (+beer) for fingerprint recognition. This will need a lot of beer, the main cost is not about the hardware, but the development of this will surely take more than 100 hours. Really, is not trivial.
 
-- Fourth goal. Oh cmon. We need about ~5000 for a cool case (and when I say cool, I really mean cool). I already have an engineer working on this, and the project ready for prototyping (but since is not my own material, I can't upload them here). This cost is about the prototyping of the hardware, nor me or dlalex will take funds from this (no beer, so). Like the previous, this will not be done till the others 3 are completed. Do not donate for this if you see the previous rounds still in this readme. This is just a roadmap.
+- Fourth goal. Oh cmon. We need about ~5000 for a cool case (and when I say cool, I really mean cool). I already have an engineer working on this, and the project ready for prototyping (but since is not my own material, I can't upload them here). This cost is about the prototyping of the hardware, nor me or dlalex will take funds from this (no beer, so). Like the previous, this will not be done till the others 3 are completed. Do not donate for this if you see the previous rounds still need to be reached this readme. This is just a roadmap.
 
 We DON'T encourage donations, but we would really prefeer a fork instead (and we offer free support on what we wrote). Anyway if the amount will be raised, the work will be done as established. 
 
