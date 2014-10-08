@@ -20,7 +20,7 @@ Instructions:
 - Create a superuser account, (python manage.py createsuperuser)
 - Run the app! (python manage.py runserver)
 - Login in into admin panel, configure app basics
-- Go to the index page (http://127.0.0.1:8000/ ?), since no wallet was created, you should be asked to create a new one. Note your seed and configure the wallet.
+- Go to the index page (http://127.0.0.1:8000/ ?), since no wallet was created, you should be asked to create a new one. Note your seed and configure the wallet. Run it with Chromium in Kiosk mode to feel the experience of a real ATM ;-)
 - Again, go to next page, the AVM should be ready for Bitcoin selling, fill it if you're brave (I wouldn't, check )
 
 TO DO:
