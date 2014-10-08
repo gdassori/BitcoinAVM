@@ -27,12 +27,12 @@ Donations goal (on trackable address, pay attention, and amounts are CUMULATIVE,
 
 Probably final costs:
 
-300: cool case once prototyping
-200: the main hardware (x86 mainboard + atom + ram + etc.)
-150: the 10" touch display
-200+50: the banknotes reader\emitter and its own PSU (they suck a large amounts of Amperes)
-200: the fingerprint terminal
-150: the POS stuff
+- 300 €: cool case once prototyping
+- 200 €: the main hardware (x86 mainboard + atom + ram + etc.)
+- 150 €: the 10" touch display
+- 200+50 €: the banknotes reader\emitter and its own PSU (they suck a large amounts of Amperes)
+- 200 €: the fingerprint terminal
+- 150 €: the POS stuff
 
 So you can have, finally, if the project is finished:
 
