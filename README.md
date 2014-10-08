@@ -10,6 +10,7 @@ Later dlalex83 joined me and we did this. 100% we'll don't finish it, fork and d
 If forked feel free to contact me to explain or adjust some broken things. mn3monic @ freenode - gdassori @ bitcointalk
 
 General purpose donations: https://greenaddress.it/pay/GALibhqvVEhbZR2NYf6R9DC23L3sq/
+
 Project donations (trackable): 354apm3c8WvU1zBEFBAnv4HNa6Rnf5oUGn
 
 Donations goal (on trackable address, pay attention)
